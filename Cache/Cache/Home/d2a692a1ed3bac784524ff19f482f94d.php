@@ -170,7 +170,7 @@
 
 <?php  $_result=M("slide_data")->field("*")->where("fid = 1 AND status=1 ")->order("id desc")->limit("5")->select();; if ($_result): $n=0;foreach($_result as $key=>$r):++$n;$mod = ($n % 2 );?><!-- start -->
                         <div class="swiper-slide">
-                            <a href="#contant">
+                            <a href="#contact">
                                 <img src="<?php echo ($r["pic"]); ?>" alt="<?php echo ($r["title"]); ?>">
                             </a>
                         </div>
@@ -209,7 +209,7 @@
             <div class="product">
                 <div class="container">
                     <div class="row">
-                        <h3>Prduct</h3>
+                        <h3>Product</h3>
                         <div class="list">
                             <!-- pc -->
                             <div class="pc-product">
@@ -304,8 +304,7 @@
                                                 name="email" id=""></div>
                                     </div>
                                     <div class="box clearfix">
-                                        <div class="txt col-lg-5 col-md-5 col-sm-5 col-xs-12">WhatsApp or WeChat<span> *
-                                            </span>
+                                        <div class="txt col-lg-5 col-md-5 col-sm-5 col-xs-12">WhatsApp or WeChat
                                         </div>
                                         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12"><input type="text"
                                                 name="phone" id=""></div>
@@ -327,8 +326,8 @@
                                     <li><a href="mailto:<?php echo ($email); ?>" target="_blank"><?php echo ($email); ?></a></li>
                                     <li><?php echo ($phone); ?></li>
                                     <li><?php echo ($domestic_fax); ?></li>
-                                    <li>Lydia Liu</li>
-                                    <li>+86 13686529747</li>
+                                    <li><?php echo ($lianxiren); ?></li>
+                                    <li><a href="tel:<?php echo ($shouji); ?>" target="_blank" style='color:#fff;'>+86 <?php echo ($shouji); ?></a></li>
                                 </ul>
                                 <!-- <ul class="contact-share clearfix">
                                     <li class="linkedin"><a href="<?php echo ($ins); ?>" title="" target="_blank" rel="nofollow"><img

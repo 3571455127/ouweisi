@@ -341,7 +341,7 @@ footer .copy {
 
     position: fixed;
 
-    bottom: 10rem;
+    bottom: 12rem;
 
     right: 0;
 
@@ -441,7 +441,7 @@ footer .copy {
 
 /* header */
 
-/* header .share ul li {
+header .share ul li {
 
     float: left;
 
@@ -477,25 +477,9 @@ header .share img {
 
     height: auto;
 
-} */
-
-header .top-email {
-    padding: 44px 0;
 }
 
-header .top-email a {
-    color: #555;
-    font-size: 20px;
-    text-align: right;
-}
 
-header .top-email a:hover {
-    color: #1c2a73;
-}
-
-header .top-email img {
-    padding-right: 10px;
-}
 
 header .share a:hover,
 
@@ -598,16 +582,13 @@ header .navbar-fixed-top .navbar-nav>li>a {
 
 }
 
-header .navbar-fixed-top .top-email {
-    padding: 22px 0;
-}
 
-/* 
+
 header .navbar-fixed-top .share ul {
 
     padding: 10px 0;
 
-} */
+}
 
 
 
@@ -816,7 +797,6 @@ header .navbar-fixed-top .share ul {
     font-size: 20px;
 
     color: #1c2a73;
-    text-transform: uppercase;
 
 }
 
@@ -886,7 +866,7 @@ header .navbar-fixed-top .share ul {
 
     height: 27px;
 
-    margin-right: 15px;
+    margin-right: 10px;
 
 }
 
@@ -908,7 +888,7 @@ header .navbar-fixed-top .share ul {
 
     font-size: 18px;
 
-    margin-right: 15px;
+    margin-right: 10px;
 
 }
 
@@ -948,7 +928,6 @@ header .navbar-fixed-top .share ul {
 
     padding: 50px 0;
 
-    padding-top: 80px;
     display: flex;
 
     align-items: center;
@@ -1301,10 +1280,6 @@ header .navbar-fixed-top .share ul {
     color: #fff;
 }
 
-.index .contact .info .vinculum li:nth-child(2) a:hover {
-    color: red;
-}
-
 
 .index .contact .info .vinculum li:nth-child(3) {
 
@@ -1343,7 +1318,7 @@ header .navbar-fixed-top .share ul {
 
 
 
-/* 
+
 .index .contact .info .contact-share li {
 
     float: left;
@@ -1374,7 +1349,7 @@ header .navbar-fixed-top .share ul {
 
     transform: translateY(-4px);
 
-} */
+}
 
 
 
@@ -1395,6 +1370,31 @@ footer .copyright {
 }
 
 
+header .top-email {
+    padding: 44px 0;
+}
+
+header .top-email a {
+    color: #555;
+    font-size: 20px;
+    text-align: right;
+}
+
+header .top-email a:hover {
+    color: #1c2a73;
+}
+
+header .top-email img {
+    padding-right: 10px;
+}
+
+header .navbar-fixed-top .top-email {
+    padding: 22px 0;
+}
+
+.pc-banner .swiper-btn {
+    display: none;
+}
 
 /* 响应式 */
 
@@ -1412,7 +1412,7 @@ footer .copyright {
 
 
 
-    /* .banner .swiper-button-prev,
+    .banner .swiper-button-prev,
 
     .banner .swiper-container-rtl .swiper-button-next {
 
@@ -1428,7 +1428,7 @@ footer .copyright {
 
         right: 100px;
 
-    } */
+    }
 
 
 
@@ -1730,7 +1730,7 @@ footer .copyright {
 
 
 
-    /* .index .contact .contact-share {
+    .index .contact .contact-share {
 
         display: flex;
 
@@ -1744,25 +1744,6 @@ footer .copyright {
 
         margin-right: 15px;
 
-    } */
-
-    .index h3::after,
-    .index .contact h3::after {
-        width: 95px;
-        height: 20px;
-        bottom: -25px;
     }
 
-    .index .contact h3::after {
-        width: 115px;
-        height: 25px;
-    }
-
-    .index .about .box {
-        padding-top: 50px;
-    }
-
-    header .navbar-fixed-top .top-email {
-        display: none;  
-    }
 }
