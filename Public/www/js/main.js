@@ -4,14 +4,13 @@ $(function () {
 
     // pc轮播
 
-    var mySwiper = new Swiper('.pc-banner .swiper-container', {
-
+    var mySwiper1 = new Swiper('.pc-banner .swiper-container', {
         loop: true,
-
-        autoplay: true,
-
-        speed: 1200,
-
+        autoplay: {
+            delay: 5000,
+        },
+        speed: 1500,
+        grabCursor: true,
         navigation: {
 
             nextEl: '.pc-banner .swiper-button-next',
@@ -31,7 +30,11 @@ $(function () {
     })
 
 
-
+    $(".pc-banner img").hover(function () {
+        mySwiper1.autoplay.stop();
+    }, function () {
+        mySwiper1.autoplay.start();
+    });
 
 
     // wap 轮播

@@ -1392,10 +1392,6 @@ header .navbar-fixed-top .top-email {
     padding: 22px 0;
 }
 
-.pc-banner .swiper-btn {
-    display: none;
-}
-
 /* 响应式 */
 
 @media screen and (max-width:1920px) {
